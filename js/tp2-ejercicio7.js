@@ -1,6 +1,6 @@
 // Ejercicio 7
 
-let numero = parseInt(prompt('Ingrese un numero del 1 al 50:'));
+const numero = parseInt(prompt('Ingrese un numero del 1 al 50:'));
 
 if (numero >= 1 && numero <= 50){
 for(let i=numero; i >= 1; i--){

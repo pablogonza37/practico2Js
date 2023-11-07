@@ -1,6 +1,6 @@
 // Ejercicio 17
 
-const texto = prompt("ingrese un texto");
+const texto = prompt("ingrese un texto").toLowerCase();
 let indice = 0;
 while (
   texto.charAt(indice) !== "a" &&
